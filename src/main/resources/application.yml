@@ -1,7 +1,14 @@
+#APACHE
 server:
   port: 8888
 
 spring:
+  #SECUTITY
+  security:
+    user:
+      name: user
+      password: pass
+  #CLOUD CONFIG SERVER
   cloud:
     config:
       server:
